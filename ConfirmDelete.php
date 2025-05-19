@@ -8,7 +8,7 @@ $query_delete = mysqli_query($connection, "SELECT * FROM mytbl WHERE id = '$user
 while($row_delete = mysqli_fetch_assoc($query_delete)) {
   $user_id = $row_delete["id"];
   $db_name = $row_delete["name"];
-  $db_address = $row_delete["address"];
+  $db_address = $row_delete["address"];X
   $db_email = $row_delete["email"];
 }
 
